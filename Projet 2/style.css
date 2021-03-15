@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#nav>div:nth-child(2) a {
+    padding: 30px;
+    display: inline-block;
+    color: gray;
+}
+
+#nav>div:nth-child(2) .actif {
+    color: #388aeb;
+    border-top: #388aeb 2px solid;
+    font-size: 18px;
+}
+
+#nav>div:nth-child(2) a:last-child {
+    color: #388aeb;
+    font-weight: bold;
+}
+
+body {
+    margin: 0 40px;
+}
+
+#Entete {
+    margin: 0px;
+    padding: 15px 0;
+}
+
+#Entete>* {
+    margin: 0px;
+}
+
+.fa-map-marker-alt {
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+#Recherche>input {
+    padding-left: 5px;
+    border: #f2f2f2 solid 1px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+}
+
+#Recherche>button {
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #388aeb;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: -4px;
+}
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+    height: 50px;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filtre {
+    height: 100%;
+    background: none;
+    border: lightgray solid 2px;
+    border-radius: 25px;
+}
+
+.filtre span {
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    transform: translateY(-12.5%);
+}
+
+.filtre i {
+    transform: translateX(-8px) translateY(-2px);
+    border-radius: 50%;
+    background-color: #dfe9fb;
+    padding: 14px;
+    width: 20px;
+    font-size: 20px;
+    color: #0168f9;
+}
+
+#filtres p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#info i {
+    padding: 5px;
+    border: lightgray solid 2px;
+    border-radius: 100%;
+    width: 12px;
+    text-align: center;
+    color: #0168f9;
+    font-size: 12px;
+}
