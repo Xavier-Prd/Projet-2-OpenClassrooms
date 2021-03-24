@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin: 0;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -39,8 +43,8 @@ a {
     font-weight: bold;
 }
 
-body {
-    margin: 0 40px;
+header {
+    margin: 0 150px;
 }
 
 #Entete {
@@ -132,4 +136,194 @@ body {
     text-align: center;
     color: #0168f9;
     font-size: 12px;
+}
+
+main {
+    margin: 0 150px;
+}
+
+#Hebergement>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Hebergement {
+    padding-bottom: 20px;
+}
+
+#Hebergement img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-content {
+    padding: 0px 10px 10px 10px;
+    position: relative;
+}
+
+#Hebergement article {
+    padding: 5px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Hebergement a,
+#Hebergement a:active {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.fas.fa-star {
+    color: #0168f9;
+}
+
+.fas.fa-star.grey {
+    color: lightgray;
+}
+
+#Hebergement p,
+#Hebergement h2 {
+    padding: 0 25px;
+}
+
+section:first-of-type {
+    width: 66%;
+}
+
+#Populaire {
+    padding: 0 30px;
+}
+
+#Populaire img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+section {
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    border-radius: 25px;
+}
+
+#Activités {
+    background: none;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#Assistance {
+    padding-right: 600px;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+ul {
+    padding: 0 5px;
+}
+
+footer p {
+    font-weight: bold;
+    padding-left: 11px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+main>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Populaire>div:first-child * {
+    margin: 12px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+#Populaire>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#Populaire article {
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Populaire>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+#Populaire .card-content div {
+    position: absolute;
+    bottom: 10px;
+}
+
+#Hebergement article,
+#Populaire article {
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+#Activités img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+#Activités>div>article img {
+    width: 350px;
+    height: 500px;
+}
+
+#Activités>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#Activités {
+    width: initial;
+    padding-bottom: 50px;
+}
+
+#Activités div div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#Activités article {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+#Activités p {
+    padding-left: 10px;
 }
