@@ -127,3 +127,11 @@ footer {
     margin: 0 0 0 20px;
     padding: 20px;
 }
+
+#Assistance {
+    padding-right: initial;
+}
+
+footer div {
+    width: 100%;
+}
