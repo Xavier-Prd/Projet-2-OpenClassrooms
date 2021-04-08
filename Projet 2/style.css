@@ -37,8 +37,8 @@ nav {
 }
 
 #nav a:hover {
-    color: #388aeb;
-    border-color: #388aeb;
+    color: #0065FC;
+    border-color: #0065FC;
 }
 
 #nav a {
@@ -46,7 +46,7 @@ nav {
 }
 
 #nav>div:nth-child(2) a:last-child {
-    color: #388aeb;
+    color: #0065FC;
     font-weight: bold;
 }
 
@@ -68,9 +68,8 @@ header {
     background-color: #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    font-size: 18px;
+    font-size: 1.1rem;
     position: relative;
-    top: 2px;
     left: 4px;
 }
 
@@ -78,21 +77,40 @@ header {
     padding-left: 5px;
     border: #f2f2f2 solid 1px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     height: 48px;
 }
 
-#Recherche>button {
+#Recherche button {
     padding: 15px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #388aeb;
+    background-color: #0065FC;
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     position: relative;
     left: -4px;
+}
+
+#Recherche div>i {
+    display: none;
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: -4px;
+    bottom: -15px;
+}
+
+#Recherche {
+    display: flex;
 }
 
 #filtres {
@@ -118,7 +136,7 @@ header {
     display: inline-block;
     padding: 0 10px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     transform: translateY(-12.5%);
 }
 
@@ -133,13 +151,13 @@ header {
     background-color: #dfe9fb;
     padding: 14px;
     width: 20px;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0168f9;
 }
 
 #filtres p {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 #info i {
@@ -149,7 +167,7 @@ header {
     width: 12px;
     text-align: center;
     color: #0168f9;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 main {
