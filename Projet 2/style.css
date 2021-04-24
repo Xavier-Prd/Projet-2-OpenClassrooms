@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: inline-block;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#nav>div:nth-child(2) a {
+    padding: 30px;
+    display: inline-block;
+    color: gray;
+}
+
+#nav a:hover {
+    color: #0065FC;
+    border-color: #0065FC;
+}
+
+#nav a {
+    border-top: transparent 2px solid;
+}
+
+#nav>div:nth-child(2) a:last-child {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+header {
+    margin: 0 150px;
+}
+
+#Entete {
+    margin: 0px;
+    padding: 15px 0;
+}
+
+#Entete>* {
+    margin: 0px;
+}
+
+.fa-map-marker-alt {
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 1.1rem;
+    position: relative;
+    left: 4px;
+}
+
+#Recherche>input {
+    padding-left: 5px;
+    border: #f2f2f2 solid 1px;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 48px;
+}
+
+#Recherche button {
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: -4px;
+}
+
+#Recherche div>i {
+    display: none;
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: -4px;
+    bottom: -15px;
+}
+
+#Recherche {
+    display: flex;
+}
+
+#filtres {
+    margin: 25px 0;
+    width: 65%;
+}
+
+#filtres>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtre {
+    height: 50px;
+    background: none;
+    border: lightgray solid 2px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.filtre span {
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    transform: translateY(-12.5%);
+}
+
+.filtre:hover {
+    background-color: #dfe9fb;
+    cursor: pointer;
+}
+
+.filtre i {
+    transform: translateX(-8px) translateY(-2px);
+    border-radius: 50%;
+    background-color: #dfe9fb;
+    padding: 14px;
+    width: 20px;
+    font-size: 1.2rem;
+    color: #0168f9;
+}
+
+#filtres p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#info i {
+    padding: 5px;
+    border: lightgray solid 2px;
+    border-radius: 100%;
+    width: 12px;
+    text-align: center;
+    color: #0168f9;
+    font-size: 0.8rem;
+}
+
+main {
+    margin: 0 150px;
+}
+
+#Hebergement>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Hebergement {
+    padding-bottom: 20px;
+}
+
+#Hebergement img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-content {
+    padding: 0px 10px 10px 10px;
+    position: relative;
+}
+
+#Hebergement article {
+    padding: 5px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Hebergement article:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px rgb(0 0 0 / 20%)
+}
+
+#Hebergement a,
+#Hebergement a:active {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.fas.fa-star {
+    color: #0168f9;
+}
+
+.fas.fa-star.grey {
+    color: lightgray;
+}
+
+#Hebergement p,
+#Hebergement h2 {
+    padding: 0 25px;
+}
+
+section:first-of-type {
+    width: 66%;
+}
+
+#Populaire {
+    padding: 0 30px;
+}
+
+#Populaire img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+section {
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    border-radius: 25px;
+}
+
+#Activités {
+    background: none;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+    align-items: center;
+    margin: 0px 150px;
+    padding: 15px;
+}
+
+footer div {
+    width: 33%;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+ul {
+    padding: 0 5px;
+}
+
+footer p {
+    font-weight: bold;
+    padding-left: 11px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+main>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Populaire>div:first-child * {
+    margin: 12px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+#Populaire>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#Populaire article {
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Populaire article:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px rgb(0 0 0 / 20%)
+}
+
+#Populaire>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+#Populaire .card-content div {
+    position: absolute;
+    bottom: 10px;
+}
+
+#Hebergement article,
+#Populaire article {
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+#Activités img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+#Activités>div>article img {
+    width: 350px;
+    height: 500px;
+}
+
+#Activités>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#Activités {
+    width: initial;
+    padding-bottom: 50px;
+}
+
+#Activités div div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#Activités article {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+#Activités article:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 5px rgb(0 0 0 / 20%)
+}
+
+#Activités p {
+    padding-left: 10px;
+}
