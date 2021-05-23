@@ -1,6 +1,6 @@
 main {
     width: 100vw;
-    margin: 0 15px;
+    margin: 0;
 }
 
 #nav nav {
@@ -21,7 +21,7 @@ main {
 }
 
 header {
-    margin: 0 15px;
+    margin: 0;
     width: 100vw;
 }
 
@@ -83,6 +83,10 @@ section:first-of-type {
     height: 100px;
 }
 
+#Hebergement article {
+    margin: 10px;
+}
+
 h3 {
     margin: 3px 0;
 }
@@ -92,9 +96,10 @@ h3 {
 }
 
 #Populaire {
-    width: 90%;
+    width: 100%;
     font-size: 1.3rem;
     padding: 0;
+    border-radius: 0;
 }
 
 #Populaire img {
